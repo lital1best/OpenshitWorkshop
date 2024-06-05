@@ -23,7 +23,7 @@ spec:
             - containerPort: 8080
               protocol: TCP
           imagePullPolicy: IfNotPresent
-# Update with the image you build in part 1
+# Update with the image you build in part 
           image: 'quay.io/lital1best/workshop_image:1.0.0'
       restartPolicy: Always
       terminationGracePeriodSeconds: 30
