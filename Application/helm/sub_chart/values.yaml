@@ -3,8 +3,19 @@ deploy1:
 
   containers:
       containerPort: 8080
-      image: 'quay.io/argo-helm-workshop/workshop-app'
-      tag: 'chart_v2'
+      image: 'quay.io/lital1best/workshop-image'
+      tag: 'chart_v1'
+
+deploy2: 
+  ReplicaNumber: 1
+
+  containers:
+    containerPort: 8080
+    image: 'quay.io/lital1best/workshop-image'
+    tag: 'chart_v1'
+
+  service:
+    servicePort: 8080
 
   service:
       servicePort: 8080
