@@ -1,7 +1,7 @@
 kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
-# set your user name
+# set your user nam
   name:  user23-hello-world
 spec:
   to:
