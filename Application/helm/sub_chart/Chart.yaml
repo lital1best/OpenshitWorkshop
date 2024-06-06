@@ -7,7 +7,7 @@ dependencies:
     repository: oci://ghcr.io/lital1best/helm
     version: "1.0.0"
     alias: deploy1
-  - name: workshop-test 
+  - name: workshop
     repository: oci://ghcr.io/lital1best/helm
     version: "1.0.0"
     alias: deploy2 
